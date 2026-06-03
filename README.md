@@ -20,12 +20,11 @@
 
 ## 1.2 Team Members
 
-| Name | Role | Skills |
-| ---- | ---- | ------ |
-|      |      |        |
-|      |      |        |
-|      |      |        |
-
+| Name | Role | Department | Year | Skills |
+|------|------|------------|------|--------|
+| Aayushi Choudhary |   |  EXTC   |   2nd   |        |
+|Sakshi Gupta      |      | AURO  |   2nd   |        |
+| Yash Patwardhan  |      |  ECS  |  1st    |        |
 ---
 
 # 2. Problem Discovery
