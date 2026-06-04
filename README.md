@@ -17,6 +17,7 @@
 ## 1.1 Team Name and Photo
 
 ---
+<img width="1280" height="960" alt="team photo" src="https://github.com/user-attachments/assets/e44f3eb5-97ed-46d4-a207-95989e68f53b" />
 
 ## 1.2 Team Members
 
