@@ -1,33 +1,39 @@
-# 🧴 Fusion 360 Bottle Designs
+# 🔩 Fusion 360 Designs
 
-This folder contains a collection of bottle designs created as part of the MakerMania2026 design and fabrication training program.
+This folder contains a collection of Fusion 360 projects created as part of the **MakerMania 2026 Design and Fabrication Training Program**.
 
-The objective of this project was to develop practical CAD modeling skills using Fusion 360 while exploring product design principles such as form, functionality, ergonomics, and manufacturability.
+The objective of these projects is to develop practical CAD modeling skills while exploring product design principles such as form, functionality, ergonomics, manufacturability, and creative problem-solving.
 
 ## 📁 Included Designs
 
+### 🧴 Bottle Designs
 - Sakshi's Bottle Design
 - Aayushi's Bottle Design
 - Yash's Bottle Design
 
+### 🔑 Keychain Designs
+- Sakshi's Keychain Design
+- Aayushi's Keychain Design
+- Yash's Keychain Design
+
+### 🔧 Additional Fusion 360 Projects
+Various CAD models, design exercises, and product concepts developed throughout the training program.
+
 ## 🎯 Learning Outcomes
 
-Through this project, we practiced:
+Through these projects, we practiced:
 
 - Sketch creation and constraints
 - Solid and surface modeling
-- Revolve, Sweep, and Loft operations
+- Revolve, Sweep, Loft, and Extrude operations
 - Design visualization
 - CAD workflow and documentation
 - Design for manufacturing
+- Product design fundamentals
 
 ## 🛠 Software Used
 
 - Fusion 360
-
-## 👥 Team
-
-Created by members of **Tinker Tribe** as part of our CAD and product design training.
 
 ---
 
