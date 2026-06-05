@@ -1,8 +1,12 @@
-# Tinker Tribe – Design & Fabrication Training Repository
+# 🚀 TinkerTribe – MakerMania Training Repository
 
-Welcome to the official training repository of **Tinker Tribe**.
+Every design starts as an idea.
 
-This repository documents our learning journey in CAD modeling, laser cutting, digital fabrication, and product design. It contains training exercises, design projects, fabrication files, and experimental concepts developed as part of our hands-on learning process.
+This repository showcases the projects, experiments, and prototypes developed by **Team TinkerTribe** during the **MakerMania Training Program**. Through CAD modeling, laser cutting, digital fabrication, and creative product design, we transform concepts into tangible creations while continuously learning, building, and improving.
+
+From Fusion 360 bottle designs and laser-cut projects to imaginative concepts like the **Phantom Lock**, each project represents a step in our journey of exploring engineering, design, and innovation through hands-on experience.
+
+This repository serves as a collection of our training exercises, design files, fabrication projects, and experimental product concepts, documenting both our progress and the skills developed throughout the program.
 
 ---
 
