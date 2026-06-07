@@ -3,6 +3,10 @@
 ## useless product
 [![Watch the Demo](https://img.youtube.com/vi/78bA5DxY1MM/maxresdefault.jpg)](https://youtube.com/shorts/78bA5DxY1MM)
 
+## Training Material
+
+- [Fusion 360 Designs](./Training%20Material/Fusion360/README.md)
+
 ## Innovation Project Workbook
 
 > Program Duration: 1 June 2026 – 4 July 2026
