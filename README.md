@@ -1,8 +1,4 @@
 # MAKERMANIA 2026 - TinkerTribe🐥
-
-## useless product
-[![Watch the Demo](https://img.youtube.com/vi/78bA5DxY1MM/maxresdefault.jpg)](https://youtube.com/shorts/78bA5DxY1MM)
-
 ## Innovation Project Workbook
 
 > Program Duration: 1 June 2026 – 4 July 2026
@@ -30,6 +26,9 @@
 |Sakshi Gupta      |      | AURO  |   2nd   |        |
 | Yash Patwardhan  |      |  ECS  |  1st    |        |
 ---
+
+## useless product
+[![Watch the Demo](https://img.youtube.com/vi/78bA5DxY1MM/maxresdefault.jpg)](https://youtube.com/shorts/78bA5DxY1MM)
 
 # 2. Problem Discovery
 
