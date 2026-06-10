@@ -33,24 +33,7 @@
 [![Watch the Demo](https://img.youtube.com/vi/78bA5DxY1MM/maxresdefault.jpg)](https://youtube.com/shorts/78bA5DxY1MM)
 
 # SCAMPER 
-## Smart Attendance Automation
 
-A product innovation project developed using the SCAMPER methodology.
-
-## Problem Statement
-Traditional attendance systems require manual intervention, are time-consuming, and can be prone to errors.
-
-## Solution
-A smart attendance system that automatically marks attendance when students enter the college premises using location-based detection and verification mechanisms.
-
-## SCAMPER Analysis
-- Substitute: Manual attendance → Automated attendance
-- Combine: Geofencing + Student Verification
-- Adapt: Location-tracking technologies for attendance management
-- Modify: Simplified attendance process
-- Put to Another Use: Campus access monitoring
-- Eliminate: Manual roll calls and paperwork
-- Reverse: Attendance is recorded automatically instead of being manually marked
 
 # 2. Problem Discovery
 
