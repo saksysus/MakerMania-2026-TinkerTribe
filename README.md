@@ -33,7 +33,7 @@
 [![Watch the Demo](https://img.youtube.com/vi/78bA5DxY1MM/maxresdefault.jpg)](https://youtube.com/shorts/78bA5DxY1MM)
 
 # SCAMPER 
-
+[scamper ppt](Training%20Material/Non-Contact-Authentication-System-for-Controlled-Laboratory-Environments%20(1).pptx)
 
 # 2. Problem Discovery
 
