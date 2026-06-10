@@ -38,6 +38,9 @@
 
 [scamper ppt](Training%20Material/Non-Contact-Authentication-System-for-Controlled-Laboratory-Environments%20(1).pptx)
 
+<img width="2613" height="2054" alt="image" src="https://github.com/user-attachments/assets/4e429609-706b-4294-8721-94fb83c1e0fb" />
+
+
 A touchless authentication system designed for laboratories and chemical environments where traditional methods such as RFID cards, fingerprint scanners, and face recognition may be impractical due to PPE requirements, contamination risks, and operational constraints.
 
 ## 🚀 Problem Statement
