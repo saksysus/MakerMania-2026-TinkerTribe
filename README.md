@@ -40,7 +40,7 @@ A compact ESP32 gaming console built with an 16x8 MAX7219 LED matrix and push bu
 
 ## 📌 Project Overview
 
-The **ESP32-Based Smart Mini LED Game Console** is a low-cost embedded gaming device designed for retro-style gameplay on a small LED matrix. It uses an ESP32 microcontroller as the main controller, an 8x8 MAX7219 LED matrix as the display, and push buttons for input.
+The **ESP32-Based Smart Mini LED Game Console** is a low-cost embedded gaming device designed for retro-style gameplay on a small LED matrix. It uses an ESP32 microcontroller as the main controller, an 16x8 MAX7219 LED matrix as the display, and push buttons for input.
 
 The project is intended for students and beginner makers who want to learn embedded programming, SPI communication, display control, and game logic through a fun hands-on build.
 
