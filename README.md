@@ -122,72 +122,72 @@ In **Pattern Copy**, the console briefly shows a random LED pattern. After the p
 The ESP32-Based Smart Mini LED Game Console is a practical and creative embedded systems project. It combines simple hardware with engaging gameplay, making it ideal for students who want to learn microcontroller programming through an interactive and fun build.
 # 2. Problem Discovery
 
-## 2.1 Observation Area
+# 2.1 Observation Area
 
-Where did you conduct your observations?
+## Where did you conduct your observations?
 
-- Hostel
-- Home
-- Public Transport
-- College Campus
-
----
-
-## 2.2 AEIOU Observation Sheet
-
-### Activities
-
-- Leaving home for work, college, or daily errands
-- Locking doors before leaving
-- Collecting personal belongings before departure
-- Checking pockets and bags for essentials
-- Returning home after realizing an item was forgotten
-
-### Environment
-
-- Busy morning routines
-- Time-sensitive departures
-- Distracted or multitasking users
-- Homes, hostels, apartments, and offices
-- Situations where users are carrying multiple items
-
-### Interactions
-
-- Users interact with doors and locks
-- Users interact with keys, wallets, bags, and electronic devices
-- Family members share household access
-- Users receive reminders through alarms or notifications
-
-### Objects
-
-- Keys
-- Wallets
-- ID Cards
-- Mobile Phones
-- Laptops
-- Chargers
-- Bags
-- Door Locks
-
-### Users
-
-- Students
-- Working Professionals
-- Hostel Residents
-- Families
-- Elderly Individuals
+* Hostel
+* Home
+* College Campus
+* Electronics/DIY Project Discussions
 
 ---
 
-## 2.3 Observation Log
+# 2.2 AEIOU Observation Sheet
 
-| Observation | Evidence | Pain Point |
-| ----------- | -------- | ---------- |
-| People often leave home in a hurry | Observed during morning routines | Essential items are forgotten |
-| Users frequently perform manual checks before leaving | Checking pockets and bags repeatedly | Causes stress and delays |
-| Forgotten items often require returning home | Personal experiences and user interviews | Wastes time and effort |
-| Keys, wallets, and ID cards are commonly misplaced | Frequently reported by users | Creates inconvenience and frustration |
-| Existing solutions rely entirely on memory | No preventive system available | Human error leads to forgotten belongings |
+## Activities
+
+* Playing simple games on phones or small devices.
+* Using buttons or controllers for game input.
+* Watching basic LED displays for feedback.
+* Selecting games from a simple menu.
+* Testing embedded hardware projects.
+
+## Environment
+
+* Small student workspaces.
+* Hostels and homes with limited project resources.
+* College labs and DIY electronics setups.
+* Low-cost prototype environments.
+* Places where compact and portable devices are preferred.
+
+## Interactions
+
+* Users interact with buttons and switches.
+* Users interact with the LED matrix display.
+* Users select games through a menu.
+* Users receive visual feedback from the screen.
+* Users interact with the device as a small handheld-style console.
+
+## Objects
+
+* ESP32 Development Board
+* 8×8 MAX7219 LED Matrix
+* Push Buttons
+* Buzzer
+* Jumper Wires
+* Breadboard or Perfboard
+* Power Supply or Battery Module
+
+## Users
+
+* Students
+* Hobbyist Makers
+* Beginner Embedded System Learners
+* DIY Electronics Enthusiasts
+* Children
+
+---
+
+# 2.3 Observation Log
+
+| Observation                                         | Evidence                                                | Pain Point                                            |
+| --------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------- |
+| Students enjoy simple retro games.                  | Observed during mobile gaming and project discussions.  | Most gaming projects are expensive or overly complex. |
+| Compact devices are preferred for student projects. | Seen in hostel and college project setups.              | Large displays and controllers increase cost.         |
+| Basic LED modules attract interest.                 | Observed in DIY electronics experiments.                | Full-screen displays are not always necessary.        |
+| Users like quick interactive challenges.            | Based on informal project discussions.                  | Many systems do not offer simple gameplay.            |
+| Students want affordable embedded projects.         | Repeatedly mentioned in project planning conversations. | High-cost components make prototyping difficult.      |
 
 ---
 
@@ -195,51 +195,48 @@ Where did you conduct your observations?
 
 ## 3.1 Interview Summary
 
-**Number of users interviewed:** 5
+**Number of Users Interviewed:** 5
 
 ---
 
 ## 3.2 Key Quotes
 
-1. "I have gone halfway to college before realizing I forgot my ID card."
-
-2. "I always check my pockets two or three times before leaving."
-
-3. "Forgetting my keys has made me return home multiple times."
+* “I like small game projects because they are easy to understand.”
+* “A compact LED game console would be fun to build.”
+* “Big displays make student projects more expensive.”
+* “I want something simple but still interactive.”
+* “A two-game console would be a good college project.”
 
 ---
 
 ## 3.3 User Persona
 
-### Name
+### Aayushi Choudhary
 
-Sakshi Gupta
+**Age:** 20
 
-### Age
-
-19
-
-### Occupation
-
-Engineering Student
+**Occupation:** Engineering Student
 
 ### Goals
 
-- Leave home without forgetting important belongings
-- Reach destinations on time
-- Reduce unnecessary stress
+* Build a low-cost game console.
+* Learn embedded programming.
+* Create an interesting college project.
+* Play simple games on a compact device.
 
 ### Frustrations
 
-- Forgetting keys, wallets, or ID cards
-- Returning home after already leaving
-- Wasting time searching for belongings
+* Expensive hardware parts.
+* Complicated project designs.
+* Limited experience with embedded systems.
+* Difficulty building large display-based games.
 
 ### Needs
 
-- Automatic reminders
-- Reliable item detection
-- Simple and affordable solution
+* Affordable components.
+* Simple game logic.
+* Easy-to-build circuit.
+* Compact and portable design.
 
 ---
 
@@ -247,30 +244,28 @@ Engineering Student
 
 ## Problem Statement
 
-**Users need a way to verify that they are carrying all essential belongings before leaving because forgetting important items leads to wasted time, inconvenience, and stress.**
+Students need a low-cost and simple game console project because many DIY gaming systems are too expensive, too large, or too complex to build using basic electronic components.
 
 ---
 
 ## How Might We Questions
 
-1. How might we help users remember essential belongings before they leave?
-
-2. How might we automatically detect missing items without requiring manual checks?
-
-3. How might we create an affordable reminder system that works in homes, hostels, and offices?
+* How might we create a compact game console using low-cost hardware?
+* How might we design simple games that work on a small LED matrix?
+* How might we build an engaging embedded project that is easy for students to prototype?
 
 ---
 
 ## Opportunity Ranking
 
-| Criteria | Score |
-| -------- | ----- |
-| Severity | 4 |
-| Frequency | 5 |
-| Feasibility | 5 |
-| Novelty | 4 |
-| Market Potential | 4 |
-| Total | 22/25 |
+| Criteria         | Score     |
+| ---------------- | --------- |
+| Severity         | 4         |
+| Frequency        | 4         |
+| Feasibility      | 5         |
+| Novelty          | 4         |
+| Market Potential | 4         |
+| **Total**        | **21/25** |
 
 ---
 
@@ -278,27 +273,30 @@ Engineering Student
 
 ## Brainstormed Ideas
 
-| Idea | Advantages | Challenges |
-| ---- | ---------- | ---------- |
-| Mobile Checklist App | Easy to implement | Depends on user discipline |
-| Smart Mirror Reminder System | Interactive experience | Higher cost |
-| Smart Essential Item Reminder System | Automatic detection and alerts | Requires item tagging |
-| GPS-Based Tracking Solution | Works over long distances | Battery and privacy concerns |
+| Idea                          | Advantages                 | Challenges                       |
+| ----------------------------- | -------------------------- | -------------------------------- |
+| Full-Screen Mobile Game App   | Easy to make visually rich | Not an embedded hardware project |
+| Arduino LCD Game Console      | Simple and low-cost        | Limited display creativity       |
+| Smart Mini LED Game Console   | Affordable and compact     | Needs simplified game design     |
+| Bluetooth Controller Game Box | More interactive           | More complex and costly          |
 
 ---
 
 ## Selected Concept
 
-### Smart Essential Item Reminder System
+### Smart Mini LED Game Console
 
-### Why was this concept chosen?
+---
 
-- Solves a common daily problem
-- Affordable and easy to prototype
-- Can detect multiple essential items
-- Provides proactive reminders before users leave
-- Works in homes, hostels, and workplaces
-- Offers significant convenience with minimal user effort
+## Why Was This Concept Chosen?
+
+* Uses affordable and easily available hardware components.
+* Compact and suitable for student-level projects.
+* Supports simple but engaging gameplay.
+* Can run multiple games on a single device.
+* Easy to prototype, test, and demonstrate.
+* Helps students learn embedded programming, display control, and user input handling.
+* Encourages hands-on learning of ESP32-based system design.
 
 # 6. System Design
 
