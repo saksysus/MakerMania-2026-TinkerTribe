@@ -34,314 +34,268 @@
 
 
 
-# ESP32-Based Smart Mini LED Game Console
+# 📚 SilentGuard
+### Smart Study Environment Monitoring System
 
-A compact ESP32 gaming console built with an 16x8 MAX7219 LED matrix and push buttons. It supports two simple games: a mini Tetris-style game and a pattern memory recreation game.
+> An ESP32-based smart monitoring system that helps libraries and study spaces maintain a productive learning environment through noise monitoring, seat occupancy tracking, motion analysis, and intelligent study quality assessment.
+
+---
 
 ## 📌 Project Overview
 
-The **ESP32-Based Smart Mini LED Game Console** is a low-cost embedded gaming device designed for retro-style gameplay on a small LED matrix. It uses an ESP32 microcontroller as the main controller, an 16x8 MAX7219 LED matrix as the display, and push buttons for input.
+SilentGuard is a low-cost IoT solution designed for libraries, reading rooms, and study spaces. The system continuously monitors environmental conditions using sound, motion, and occupancy sensors and converts the collected data into a simple and intuitive **Study Quality Score (0–100)**.
 
-The project is intended for students and beginner makers who want to learn embedded programming, SPI communication, display control, and game logic through a fun hands-on build.
+Unlike conventional noise monitoring systems that only react after disturbances occur, SilentGuard proactively analyzes environmental trends and identifies issues before they significantly impact study quality.
+
+The system operates locally using an ESP32, eliminating cloud dependency while providing real-time monitoring through a web dashboard.
+
+---
 
 ## 🚀 Problem Statement
 
-Many student game projects become expensive or too complex because they rely on large displays, advanced controllers, or too many components. This makes them harder to build, test, and demonstrate in a classroom or budget-focused environment.
+Libraries and study spaces often face challenges that reduce student productivity:
 
-A small LED-based console solves this by using basic hardware such as an ESP32, an 8x8 matrix, and buttons. It provides a simple platform for retro games while still teaching display interfacing, input handling, and embedded logic.
+- Gradual increase in noise levels.
+- Seat hoarding by students leaving bags unattended.
+- Lack of real-time information about study conditions.
+- Difficulty finding quiet study zones.
+- Limited data for librarians to optimize study environments.
+
+Existing solutions are often expensive, cloud-dependent, and focus only on noise measurement.
+
+---
 
 ## 💡 Proposed Solution
 
-The proposed system uses:
-- An **ESP32** as the main controller
-- An **16x8 MAX7219 LED matrix** as the display
-- **Push buttons** for game input
-- An optional **buzzer** for sound feedback
+SilentGuard combines multiple sensors and intelligent processing to monitor study spaces in real time.
 
-The console starts with a menu screen where the user can select between two games:
-1. **Mini Tetris**
-2. **Pattern Copy / Memory Game**
+The system uses:
 
-The system is compact, easy to assemble on a breadboard or perfboard, and suitable for student projects.
+- ESP32 as the main controller
+- MAX4466 sound sensors for noise monitoring
+- FSR sensors for seat occupancy detection
+- PIR sensors for motion tracking
+- OLED display for live score visualization
+- RGB LED for visual alerts
+- Vibration motor for silent notifications
+- Local web dashboard for monitoring and analytics
+
+The collected data is processed to generate a **Study Quality Score** based on:
+
+- Noise Level
+- Noise Trend
+- Occupancy Status
+- Motion Activity
+
+---
 
 ## ✨ Features
 
-- Dual game support: mini Tetris and pattern memory game.
-- 16x8 LED matrix display for retro pixel-style gameplay.
-- Push-button controls for navigation and gameplay.
-- Game selection menu.
-- Optional buzzer for sound effects.
-- Low-cost and beginner-friendly hardware.
-- Easy to expand with more games later.
+- Real-time Study Quality Score (0–100)
+- Adaptive noise monitoring
+- Noise trend detection
+- Seat occupancy tracking
+- Seat hoarding detection
+- Motion activity analysis
+- OLED score display
+- RGB visual indicators
+- Silent vibration alerts
+- ESP32 web dashboard
+- Data logging and analytics
+- No cloud dependency
 
+---
 
 ## 🔍 SCAMPER Analysis
 
 ### 🔄 Substitute
 
-Replace expensive graphical displays with a compact 8×8 LED matrix.
+- Replace manual monitoring with automated sensing.
+- Replace verbal warnings with silent vibration alerts.
+- Replace manual seat checking with occupancy sensors.
 
 ### 🤝 Combine
 
-Combine gaming, embedded programming, and display control into a single platform.
+- Combine noise monitoring, occupancy detection, and motion tracking.
+- Combine analytics and monitoring into one system.
+- Combine visual and haptic alerts.
 
 ### 🛠️ Adapt
 
-Adapt classic retro gaming concepts into a simple embedded system.
+- Adapt smart building monitoring concepts for libraries.
+- Adapt occupancy tracking systems used in modern offices.
+- Adapt environmental quality scoring techniques.
 
 ### ✨ Modify
 
-Modify traditional Tetris and memory games to fit an 8×8 display.
+- Convert reactive monitoring into proactive monitoring.
+- Introduce a Study Quality Score.
+- Use silent alerts instead of loud alarms.
+
+### 📈 Put to Another Use
+
+The system can also be used in:
+
+- Reading Rooms
+- Co-working Spaces
+- Computer Laboratories
+- Examination Halls
+- Study Lounges
+- Training Centers
+
+### ❌ Eliminate
+
+- Eliminate cloud dependency.
+- Eliminate subscription costs.
+- Eliminate manual monitoring.
+- Eliminate expensive commercial solutions.
+
+### 🔁 Reverse / Rearrange
+
+- Predict disturbances instead of reacting to them.
+- Automatically identify problematic study zones.
+- Help students locate productive study areas.
+
+---
 
 ## ⚙️ Working Principle
 
-When powered on, the ESP32 initializes the LED matrix, buttons, and menu system. The player uses buttons to select between the available games.
+1. Sensors continuously collect environmental data.
+2. ESP32 processes incoming sensor readings.
+3. Noise trends are analyzed using rolling averages.
+4. Occupancy and motion activity are evaluated.
+5. A Study Quality Score is calculated.
+6. Results are displayed through:
+   - OLED Display
+   - RGB LED Indicator
+   - Vibration Alert
+   - Web Dashboard
+7. Data is logged for future analysis.
 
-In **Mini Tetris**, small blocks fall on the 8x8 matrix, and the player moves or rotates them to complete lines. Because the display is very small, the game is simplified compared to full-size Tetris.
+---
 
-In **Pattern Copy**, the console briefly shows a random LED pattern. After the pattern disappears, the player must recreate it using the buttons. The ESP32 compares the player’s pattern with the original and shows whether the attempt was correct.
+## 🧩 Components Required
 
-## 🧩 Suggested Components
+| Component | Quantity |
+|------------|----------|
+| ESP32 Dev Board | 1 |
+| MAX4466 Sound Sensor | 2 |
+| FSR Pressure Sensor | 4 |
+| PIR Motion Sensor | 2 |
+| OLED Display (0.96") | 1 |
+| RGB LED Module | 1 |
+| Vibration Motor Module | 1 |
+| Breadboard | 1 |
+| Jumper Wires | As Required |
+| Resistors | As Required |
+| USB Power Supply | 1 |
 
-- ESP32 development board.
-- MAX7219 16x8 LED matrix module.
-- 4 to 5 push buttons.
-- Breadboard or perfboard.
-- Jumper wires.
-- Optional buzzer.
-- Optional battery module for a portable version.
+---
 
-## 🎮 Suggested Games
+## 🏗️ System Architecture
 
-| Game | Suitability on 8x8 | Notes |
-|---|---|---|
-| Pattern Copy | Excellent | The display itself works naturally as a memory grid. |
-| Mini Tetris | Possible | Must be simplified because of the limited display space. |
+```text
+MAX4466 Sound Sensors
+          │
+          ▼
+       ESP32
+          │
+ ┌────────┼────────┐
+ │        │        │
+ ▼        ▼        ▼
+FSR      PIR    Processing
+Seats   Motion
+          │
+          ▼
+ Study Quality Score
+          │
+ ┌────────┼────────┬────────┐
+ ▼        ▼        ▼        ▼
+OLED    RGB LED  Vibration Dashboard
+Display            Motor
+```
 
-## 🛠️ Future Scope
+---
 
-- Add more games such as Snake, Pong, or Reaction Challenge.
-- Upgrade from 16x8 to 32x8 for improved gameplay.
-- Add buzzer sound effects and scoring.
-- Add battery operation for portability.
-- Add Bluetooth or Wi‑Fi score sharing using ESP32 features.
-- Build a custom enclosure using acrylic or 3D printing.
-- Create a mobile or web configuration interface for settings.
+## 📊 Study Quality Score Formula
+
+```text
+Quality Score =
+(40% × Noise Score)
++ (20% × Noise Trend Score)
++ (20% × Occupancy Score)
++ (20% × Motion Score)
+```
+
+### Score Range
+
+| Score | Status |
+|---------|---------|
+| 75 – 100 | Excellent |
+| 50 – 74 | Moderate |
+| 0 – 49 | Poor |
+
+---
+
+## 🎯 Inputs
+
+- Sound Sensors
+- FSR Occupancy Sensors
+- PIR Motion Sensors
+
+---
+
+## 📺 Outputs
+
+- OLED Display
+- RGB LED Indicator
+- Vibration Motor Alert
+- Web Dashboard
+- Analytics Reports
+
+---
+
+## 👥 Target Users
+
+- Students
+- Librarians
+- Educational Institutions
+- Reading Room Operators
+- Study Space Managers
+
+---
+
+## 📈 Future Scope
+
+- AI-based noise prediction
+- Mobile application support
+- Multi-zone monitoring
+- Wireless sensor nodes
+- Cloud synchronization
+- Integration with library management systems
+- Smart campus deployment
+- Predictive analytics
+
+---
 
 ## ✅ Advantages
 
-- Low-cost and compact student project.
-- Improves embedded programming skills.
-- Teaches display control, SPI communication, and input handling.
-- Easy to prototype and demonstrate.
-- Can be expanded into a multi-game handheld later.
+- Low-cost implementation
+- Easy to prototype
+- Real-world problem solving
+- Improves study productivity
+- Supports data-driven decision making
+- Expandable architecture
+- No internet dependency
+- Suitable for educational institutions
+
+---
 
 ## 📎 Conclusion
 
-The ESP32-Based Smart Mini LED Game Console is a practical and creative embedded systems project. It combines simple hardware with engaging gameplay, making it ideal for students who want to learn microcontroller programming through an interactive and fun build.
-# 2. Problem Discovery
+SilentGuard is a practical and affordable smart monitoring solution for modern study spaces. By combining environmental sensing, occupancy tracking, trend analysis, and intelligent alerts, the system helps maintain productive learning environments while providing valuable insights for facility management.
 
-# 2.1 Observation Area
-
-## Where did you conduct your observations?
-
-* Hostel
-* Home
-* College Campus
-* Electronics/DIY Project Discussions
-
----
-
-# 2.2 AEIOU Observation Sheet
-
-## Activities
-
-* Playing simple games on phones or small devices.
-* Using buttons or controllers for game input.
-* Watching basic LED displays for feedback.
-* Selecting games from a simple menu.
-* Testing embedded hardware projects.
-
-## Environment
-
-* Small student workspaces.
-* Hostels and homes with limited project resources.
-* College labs and DIY electronics setups.
-* Low-cost prototype environments.
-* Places where compact and portable devices are preferred.
-
-## Interactions
-
-* Users interact with buttons and switches.
-* Users interact with the LED matrix display.
-* Users select games through a menu.
-* Users receive visual feedback from the screen.
-* Users interact with the device as a small handheld-style console.
-
-## Objects
-
-* ESP32 Development Board
-* 8×8 MAX7219 LED Matrix
-* Push Buttons
-* Buzzer
-* Jumper Wires
-* Breadboard or Perfboard
-* Power Supply or Battery Module
-
-## Users
-
-* Students
-* Hobbyist Makers
-* Beginner Embedded System Learners
-* DIY Electronics Enthusiasts
-* Children
-
----
-
-# 2.3 Observation Log
-
-| Observation                                         | Evidence                                                | Pain Point                                            |
-| --------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------- |
-| Students enjoy simple retro games.                  | Observed during mobile gaming and project discussions.  | Most gaming projects are expensive or overly complex. |
-| Compact devices are preferred for student projects. | Seen in hostel and college project setups.              | Large displays and controllers increase cost.         |
-| Basic LED modules attract interest.                 | Observed in DIY electronics experiments.                | Full-screen displays are not always necessary.        |
-| Users like quick interactive challenges.            | Based on informal project discussions.                  | Many systems do not offer simple gameplay.            |
-| Students want affordable embedded projects.         | Repeatedly mentioned in project planning conversations. | High-cost components make prototyping difficult.      |
-
----
-
-# 3. User Research
-
-## 3.1 Interview Summary
-
-**Number of Users Interviewed:** 5
-
----
-
-## 3.2 Key Quotes
-
-* “I like small game projects because they are easy to understand.”
-* “A compact LED game console would be fun to build.”
-* “Big displays make student projects more expensive.”
-* “I want something simple but still interactive.”
-* “A two-game console would be a good college project.”
-
----
-
-## 3.3 User Persona
-
-### Aayushi Choudhary
-
-**Age:** 20
-
-**Occupation:** Engineering Student
-
-### Goals
-
-* Build a low-cost game console.
-* Learn embedded programming.
-* Create an interesting college project.
-* Play simple games on a compact device.
-
-### Frustrations
-
-* Expensive hardware parts.
-* Complicated project designs.
-* Limited experience with embedded systems.
-* Difficulty building large display-based games.
-
-### Needs
-
-* Affordable components.
-* Simple game logic.
-* Easy-to-build circuit.
-* Compact and portable design.
-
----
-
-# 4. Problem Framing
-
-## Problem Statement
-
-Students need a low-cost and simple game console project because many DIY gaming systems are too expensive, too large, or too complex to build using basic electronic components.
-
----
-
-## How Might We Questions
-
-* How might we create a compact game console using low-cost hardware?
-* How might we design simple games that work on a small LED matrix?
-* How might we build an engaging embedded project that is easy for students to prototype?
-
----
-
-## Opportunity Ranking
-
-| Criteria         | Score     |
-| ---------------- | --------- |
-| Severity         | 4         |
-| Frequency        | 4         |
-| Feasibility      | 5         |
-| Novelty          | 4         |
-| Market Potential | 4         |
-| **Total**        | **21/25** |
-
----
-
-# 5. Solution Ideation
-
-## Brainstormed Ideas
-
-| Idea                          | Advantages                 | Challenges                       |
-| ----------------------------- | -------------------------- | -------------------------------- |
-| Full-Screen Mobile Game App   | Easy to make visually rich | Not an embedded hardware project |
-| Arduino LCD Game Console      | Simple and low-cost        | Limited display creativity       |
-| Smart Mini LED Game Console   | Affordable and compact     | Needs simplified game design     |
-| Bluetooth Controller Game Box | More interactive           | More complex and costly          |
-
----
-
-## Selected Concept
-
-### Smart Mini LED Game Console
-
----
-
-## Why Was This Concept Chosen?
-
-* Uses affordable and easily available hardware components.
-* Compact and suitable for student-level projects.
-* Supports simple but engaging gameplay.
-* Can run multiple games on a single device.
-* Easy to prototype, test, and demonstrate.
-* Helps students learn embedded programming, display control, and user input handling.
-* Encourages hands-on learning of ESP32-based system design.
-
-# 6. System Design
-
-## High-Level Description
-
-Explain your solution.
-
----
-
-## Block Diagram
-
-Insert diagram here.
-
----
-
-## Inputs
-
-List sensors, user inputs, data sources.
-
----
-
-## Outputs
-
-List displays, actuators, software outputs.
-
----
+The project demonstrates embedded systems, IoT, sensor integration, data analytics, and human-centered design, making it an ideal engineering project with strong future potential for smart campus infrastructure.
 
 # 7. Technical Planning
 
