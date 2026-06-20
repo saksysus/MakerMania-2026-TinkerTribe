@@ -74,6 +74,25 @@ The system is compact, easy to assemble on a breadboard or perfboard, and suitab
 - Low-cost and beginner-friendly hardware.
 - Easy to expand with more games later.
 
+
+## 🔍 SCAMPER Analysis
+
+### 🔄 Substitute
+
+Replace expensive graphical displays with a compact 8×8 LED matrix.
+
+### 🤝 Combine
+
+Combine gaming, embedded programming, and display control into a single platform.
+
+### 🛠️ Adapt
+
+Adapt classic retro gaming concepts into a simple embedded system.
+
+### ✨ Modify
+
+Modify traditional Tetris and memory games to fit an 8×8 display.
+
 ## ⚙️ Working Principle
 
 When powered on, the ESP32 initializes the LED matrix, buttons, and menu system. The player uses buttons to select between the available games.
