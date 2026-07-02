@@ -49,9 +49,9 @@ Rather than solving a problem, this project challenges users to think about why 
 ## 🚀 Final Thought
 
 The Phantom Lock may be useless as a lock.
-
 But if it makes you question why you trusted it in the first place, perhaps it has served its purpose.
 
 ---
+[![Watch the Demo](https://img.youtube.com/vi/78bA5DxY1MM/maxresdefault.jpg)](https://youtube.com/shorts/78bA5DxY1MM)
 
 *"The strongest lock isn't always the one that locks. Sometimes, it's the one that convinces you it does."*
