@@ -27,12 +27,6 @@
 | Yash Patwardhan  |      |  ECS  |  1st    |        |
 ---
 
-## Phantom Lock
-
- Phantom Lock is a lock that creates the illusion of security while lacking the very mechanism required to lock.
-[![Watch the Demo](https://img.youtube.com/vi/78bA5DxY1MM/maxresdefault.jpg)](https://youtube.com/shorts/78bA5DxY1MM)
-
-
 
 # 📚 SilentGuard
 
