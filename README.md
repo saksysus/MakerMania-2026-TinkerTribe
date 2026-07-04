@@ -24,9 +24,9 @@
 
 | Name | Role | Department | Year | Skills |
 |------|------|------------|------|--------|
-| Aayushi Choudhary | Hardware Design | EXTC | 2nd | Embedded Systems, Electronics |
-| Sakshi Gupta | Embedded Systems & Software | AURO | 2nd | ESP32, IoT, Web Development |
-| Yash Patwardhan | Software & Integration | ECS | 1st | Programming, 3D designing |
+| Aayushi Choudhary | Hardware Design & Testing | EXTC | 2nd |Embedded Systems, Electronics, testing |
+| Sakshi Gupta | IoT & Documentation Lead | AURO | 2nd | IoT, Documentation, Web Development |
+| Yash Patwardhan | Hardware Integration & Fabrication | ECS | 1st | Programming, 3D designing, Hardware Integration |
 
 ---
 
