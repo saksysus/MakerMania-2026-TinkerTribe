@@ -230,7 +230,7 @@ The system can also be used in:
 | ESP32 Dev Board | 1 | Main Controller |
 | INMP441 Digital Microphone | 1 | Noise Monitoring |
 | RGB LED Module | 1 | Visual Status |
-| Coin Vibration Motor | 1 | Silent Alerts |
+| Vibration Motor | 1 | Silent Alerts |
 | Breadboard | 1 | Prototyping |
 | Jumper Wires | As Required | Connections |
 | Resistors | As Required | Current Limiting |
@@ -411,7 +411,7 @@ SilentGuard has been designed with scalability in mind. Future versions can incl
 - ESP32 Dev Board
 - INMP441 Digital I2S Microphone
 - RGB LED Module
-- Coin Vibration Motor
+- Vibration Motor
 - Breadboard
 - USB Power Supply
 
